@@ -1,6 +1,6 @@
 # DPNMA-crowd-counting
 
-This is official implement for Dual Path Networks With Multi-scale Non-local Attention for Crowd Counting
+This is official implement for Dual Path Networks With Multi-scale Non-local Attention for Crowd Counting.
 
 ## Prerequisite
 
@@ -36,24 +36,24 @@ For training, run
 
 in dataset.py line 51 modify to return image, gt
 
-sh train_nonlocal.sh
+**sh train_nonlocal.sh**
 
 For testing, run
 in dataset.py line 50 modify to return image, gt,density,self.image_list[index]
 
-sh eval_nolocal.sh
+**sh eval_nolocal.sh**
 
 ## Result
-MAE 58.3
+**MAE 58.3**
 
-MSE 92.6
+**MSE 92.6**
 
 [Param](https://pan.baidu.com/s/1Y7ydWjx25e6N7jtOKJdnxA) 
 
-Password£ºjzh9 
+Password:jzh9 
 
 ## Contact Me
 
-Author ¼ªÕþºÀ ZhenghaoJi
+**Author ZhenghaoJi**
 
-Zhenghaoji828@gmail.com
+**Zhenghaoji828@gmail.com**
